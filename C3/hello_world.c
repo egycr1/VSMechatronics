@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
  
-/* My first program */
+/* My first progra */
 int main(void)
 {
   // This is a single line of comment
