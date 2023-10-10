@@ -3,8 +3,13 @@
 
 int main(void)
 {
-    // Declare some variables
-    int  a = 7, b=6;
+    // initialise some variables
+    int  a, b;
+	printf("a = ");
+	scanf("%d", &a);
+	printf("\nb = ");
+	scanf("%d", &b);
+	printf("\n");
 
 	// A single line of code conditional on the value of a
 	if ( a == 7 )
