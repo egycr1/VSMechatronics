@@ -13,6 +13,10 @@ int main(void)
         scanf("%d", &age);
         printf ("You are %d years old\n", age);    
         
+        if (age == 18 || age == 21)
+        {
+            printf("You have come of age\n");
+        }
         // Code  now goes back and repeats the test with the value of age just entered
     }
     return 0;	// Exit code
